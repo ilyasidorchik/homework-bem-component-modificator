@@ -7,7 +7,8 @@
 ```ts
 // src/App.ts
 import React from 'react'
-import { Link } from '@yandex-lego/components/Link/desktop/bundle'
+
+import { Button } from 'components/Button/desktop/bundle'
 
 const App = () => (
   <Button view="link">
