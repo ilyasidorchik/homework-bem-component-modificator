@@ -1,0 +1,14 @@
+.Button_view_link {
+  color: #00f;
+
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 255, 0.25);
+  background: none;
+  cursor: pointer;
+}
+
+.Button_view_link:hover {
+  color: #f00;
+
+  border-bottom-color: rgba(255, 0, 0, 0.25);
+}

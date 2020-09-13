@@ -1077,15 +1077,23 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@bem-react/classname@^1.5.8":
+"@bem-react/classname@1.5.8":
   version "1.5.8"
   resolved "https://registry.yarnpkg.com/@bem-react/classname/-/classname-1.5.8.tgz#cbb5fb6b3d5e662ef7cad7f57941cb3aa044be4f"
   integrity sha512-F+s5TVxOrznvnx7hYMq43RQ5ZNKk1fSMZX9PRObVco2bGYwNGEKTtvHTeY5wGVjkB7OJlq+/8QPDV2CJnbzaxg==
 
-"@bem-react/classnames@^1.3.9":
+"@bem-react/classnames@1.3.9":
   version "1.3.9"
   resolved "https://registry.yarnpkg.com/@bem-react/classnames/-/classnames-1.3.9.tgz#d5b4608b0d595b1946281e9acd4720f841e0c5e0"
   integrity sha512-hKKXsYU3SrKtQsGO5c3WkcpxPHTwSFvmjPjLUUJ/8C1dYJiQ6FweEUpLyrVRIO8amTjZD47xG8WRe/To6/4ayA==
+
+"@bem-react/core@3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@bem-react/core/-/core-3.0.1.tgz#006a363d94076b550be9607ccaa9e60d63472948"
+  integrity sha512-WOgl19clCVAxX+XR/ox9ZOOu9pwNE4SHJo+HLnxj9i2RoRtZkIFnXELuJel6lSGMCsspwURQk+2qfe/qNZgJqw==
+  dependencies:
+    "@bem-react/classname" "1.5.8"
+    "@bem-react/classnames" "1.3.9"
 
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"

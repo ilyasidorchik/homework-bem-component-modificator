@@ -1,15 +1,29 @@
-import React, { FC } from 'react';
+import React, { FC, ReactNode } from 'react';
 import { cn } from '@bem-react/classname';
 import { classnames as cx } from '@bem-react/classnames';
 
-interface IButtonProps {
+import './Button.css';
+
+export interface IButtonProps {
+  /**
+   * Дополнительный класс
+   */
   className?: string;
+
+  /**
+   * Текст кнопки.
+   */
+  children?: ReactNode;
 }
 
-const Button: FC<IButtonProps> = ({ className }) => {
-  const displayName = cn('Button');
+export const cnButton = cn('Button');
 
-  return <button className={cx(displayName(), className)}>Отправить</button>;
+/**
+ * Компонент для создания кнопок.
+ * @param {IButtonProps} props
+ */
+export const Button: FC<IButtonProps> = ({ className, children }) => {
+  const displayName = cnButton();
+
+  return <button className={cx(displayName, className)}>{children}</button>;
 };
-
-export default Button;

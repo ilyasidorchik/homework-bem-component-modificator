@@ -1,10 +1,11 @@
 import React from 'react';
 
-import Button from './components/Button';
+import { Button } from './components/Button/Button.bundle/desktop';
 
 const App = () => (
   <>
-    <Button />
+    <Button>Отправить</Button>
+    <Button view="link">Открыть</Button>
   </>
 );
 
